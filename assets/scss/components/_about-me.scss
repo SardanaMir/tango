@@ -1,0 +1,10 @@
+.about-me {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5%;
+  padding: 40px 0 40px;
+
+  .about-me__image img {
+    max-width: 100%;
+  }
+}
