@@ -1,4 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap");
-* {
-  font-family: "Raleway", sans-serif;
+@font-face {
+  font-family: "Mukta-Bold";
+  src: url(../fonts/Mukta-Bold.woff) format("woff"),
+    url(../fonts/Mukta-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-ExtraBold";
+  src: url(../fonts/Mukta-ExtraBold.woff) format("woff"),
+    url(../fonts/Mukta-ExtraBold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-ExtraLight";
+  src: url(../fonts/Mukta-ExtraLight.woff) format("woff"),
+    url(../fonts/Mukta-ExtraLight.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-Light";
+  src: url(../fonts/Mukta-Light.woff) format("woff"),
+    url(../fonts/Mukta-Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-Medium";
+  src: url(../fonts/Mukta-Medium.woff) format("woff"),
+    url(../fonts/Mukta-Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-Regular";
+  src: url(../fonts/Mukta-Regular.woff) format("woff"),
+    url(../fonts/Mukta-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-SemiBold";
+  src: url(../fonts/Mukta-SemiBold.woff) format("woff"),
+    url(../fonts/Mukta-SemiBold.woff2) format("woff2");
 }

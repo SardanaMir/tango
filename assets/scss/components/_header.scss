@@ -1,3 +1,9 @@
 .header {
-  background-color: $background-color-dark_gray;
+  background-color: $background-color-night_rider;
+  padding: 9px;
+
+  .nav-item {
+    margin: 0 41px 0 0;
+    @include nav;
+  }
 }

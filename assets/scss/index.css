@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -315,12 +314,75 @@ template {
   display: none;
 }
 
-* {
-  font-family: "Raleway", sans-serif;
+@font-face {
+  font-family: "Mukta-Bold";
+  src: url(../fonts/Mukta-Bold.woff) format("woff"), url(../fonts/Mukta-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-ExtraBold";
+  src: url(../fonts/Mukta-ExtraBold.woff) format("woff"), url(../fonts/Mukta-ExtraBold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-ExtraLight";
+  src: url(../fonts/Mukta-ExtraLight.woff) format("woff"), url(../fonts/Mukta-ExtraLight.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-Light";
+  src: url(../fonts/Mukta-Light.woff) format("woff"), url(../fonts/Mukta-Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-Medium";
+  src: url(../fonts/Mukta-Medium.woff) format("woff"), url(../fonts/Mukta-Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-Regular";
+  src: url(../fonts/Mukta-Regular.woff) format("woff"), url(../fonts/Mukta-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Mukta-SemiBold";
+  src: url(../fonts/Mukta-SemiBold.woff) format("woff"), url(../fonts/Mukta-SemiBold.woff2) format("woff2");
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/** {
+  outline: 1px solid red;
+}*/
 .header {
-  background-color: #4f4f4f;
+  background-color: #2d2d2d;
+  padding: 9px;
+}
+.header .nav-item {
+  margin: 0 41px 0 0;
+  font-family: "Mukta-Bold";
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
 }
 
 .main-container {
@@ -329,12 +391,77 @@ template {
 }
 
 .about-me {
+  width: 80%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   -moz-column-gap: 5%;
        column-gap: 5%;
   padding: 40px 0 40px;
+  justify-items: center;
 }
 .about-me .about-me__image img {
   max-width: 100%;
+  width: 466px;
+}
+
+.about-me__image-mobile {
+  display: none;
+}
+
+.about-me__title {
+  font-family: "Mukta-SemiBold";
+  font-size: 55px;
+  text-transform: lowercase;
+}
+
+.about-me__border {
+  display: inline-block;
+  border-bottom: 4px solid #900020;
+  width: 100px;
+  margin-bottom: 25px;
+}
+
+.about-me__text {
+  font-family: "Mukta-Regular";
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.about-me__text-hidden {
+  display: none;
+}
+
+.about-me__text-hidden.hidden {
+  display: block;
+}
+
+.about-me__link {
+  font-family: "Mukta-Bold";
+  font-size: 16px;
+  line-height: 170%;
+  color: #900020;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-me {
+    grid-template-columns: 1fr;
+  }
+  .about-me__image {
+    display: none;
+  }
+  .about-me__image-mobile {
+    display: block;
+  }
+  .about-me__image-mobile img {
+    width: 100%;
+  }
+  .about-me__desc {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .about-me__title {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=index.css.map */
