@@ -1,0 +1,21 @@
+@mixin nav {
+  font: {
+    family: "Mukta-Bold";
+    size: 18px;
+  }
+  color: white;
+  text-transform: uppercase;
+}
+@mixin title {
+  font: {
+    family: "Mukta-SemiBold";
+    size: 55px;
+  }
+  text-transform: lowercase;
+}
+
+@mixin title-mobile {
+  font: {
+    size: 40px;
+  }
+}
