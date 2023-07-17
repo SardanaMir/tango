@@ -1,8 +1,23 @@
+.upcoming-events {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 75vh;
+}
+
 .upcoming-events__h2{
         background-color: #900020;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 10vh;
+        font-weight: bold;
 }
 .upcoming-events__img {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }
+}
+
