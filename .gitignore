@@ -1,2 +1,3 @@
-assets/scss/index.css
-assets/scss/index.css.map
+**/scss/index.css
+**/scss/index.css.map
+.vscode
