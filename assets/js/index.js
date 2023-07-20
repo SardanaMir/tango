@@ -1,6 +1,8 @@
 const link = document.querySelector(".about-me__link");
-const text = document.querySelector(".about-me__text-hidden");
+const hiddenTexts = document.querySelectorAll(".about-me__text-hidden");
 
-link.onclick = function () {
-  text.classList.toggle("hidden");
-};
+link.addEventListener("click", () => {
+  hiddenTexts.forEach((text) => {
+    text.classList.toggle("hidden");
+  });
+});
