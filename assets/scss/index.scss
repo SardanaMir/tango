@@ -12,3 +12,13 @@
 @import "components/promo";
 @import "components/upcoming-events";
 @import "components/video";
+
+.video {
+    background-color: gray;
+  }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+   
+}
