@@ -1,23 +1,83 @@
-.upcoming-events {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 75vh;
+@media screen and (min-width: 1024px) {
+        .upcoming-events {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 75vh;
+        }
+        .upcoming-events__h2{
+                background-color: #900020;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                height: 10vh;
+                font-weight: bold;
+        }
+        .upcoming-events__img {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+        }
 }
 
-.upcoming-events__h2{
-        background-color: #900020;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        height: 10vh;
-        font-weight: bold;
+@media screen and (min-width: 500px) and (max-width: 1023px){
+        .upcoming-events {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 80%;
+        }
+        .upcoming-events__h2{
+                background-color: #900020;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                height: 5vh;
+                font-weight: bold;
+        }
+        .upcoming-events__img {
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-column-gap: 10%;
+        }
+
+        .upcoming-events__img1 {
+                max-width: 100%;
+                height: 100%;
+        }
 }
-.upcoming-events__img {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+
+@media screen and (max-width: 499px) {
+        .upcoming-events {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 80%;
+        }
+        .upcoming-events__h2{
+                background-color: #900020;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                height: 5vh;
+                font-weight: bold;
+        }
+        .upcoming-events__img {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 5vw;
+                width: 90vw;
+        }
+
+        .upcoming-events__img1 {
+                max-width: 80%;
+        }
 }
 
