@@ -1,0 +1,181 @@
+.footer
+{
+    background-color: $background-color-night_rider;
+    padding: 9px;
+}
+#footnav1 a
+{
+    margin: 0 41px 0 0;
+    font-family: "Mukta-Bold";
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    width:110px;
+}
+#footnav1:hover
+{
+    cursor:pointer;
+}
+#footnav
+{
+    margin: 0 41px 0 0;
+    font-family: "Mukta-Bold";
+    font-size: 18px;
+    color: rgb(150, 147, 147);
+    text-transform: uppercase;
+    width:110px;
+}
+#footnav:hover
+{
+    color: rgb(181, 177, 177);
+    cursor:pointer;
+}
+#footNav
+{
+    display:grid;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(1,100px);
+    margin-left: 75px;
+    margin-top:40px;
+    gap:15px;
+}
+#footnav1.fotnav-1
+{
+    grid-row: 1/1;
+    grid-column: 1/5;
+}
+#footnav.fotnav-2
+{
+    grid-row: 1/1;
+    grid-column: 2/5;
+
+}
+#footnav.fotnav-3
+{
+    grid-row: 1/1;
+    grid-column: 3/5;
+
+}
+#footnav.fotnav-4
+{
+    grid-row: 1/1;
+    grid-column: 4/5;
+
+}
+#footnav.fotnav-5
+{
+    grid-row: 1/1;
+    grid-column: 5/5;
+}
+.SocialIcons
+{
+    display:grid;
+    grid-template-columns: repeat(2,30px);
+    grid-template-rows: repeat(1,30px);
+    gap:18px;
+    margin-left:900px;
+    transform: translate(0px,-100px);
+}
+#facebook
+{
+    grid-row:1/1;
+    grid-column: 1/2;
+}
+#youTube
+{
+    grid-row:1/1;
+    grid-column: 2/2;
+}
+#FootNav_mobile
+{
+    display:none;
+}
+
+@media screen and (max-width: 1199px) {
+    #footNav {
+    transform: translate(-60px,0px);
+    }
+    .SocialIcons {
+    transform:translate(-40px,-100px);
+    }
+}
+@media screen and (max-width:900px)
+{
+    #footNav
+    {
+        display:none;
+    }
+    #FootNav_mobile
+    {
+        display:grid;
+        grid-template-columns: repeat(2,0.5fr);
+        grid-template-rows: repeat(3,7fr);
+        row-gap: 15px;
+        width:500px;
+        margin-left:20px;
+    }
+    #footnav1_mobile.fotnav-1
+    {
+        grid-row:1/3;
+        grid-column: 1/2;
+        height:20px;
+    }
+    #footnav_mobile.fotnav-2
+    {
+        grid-row:2/3;
+        grid-column: 1/2;
+        height:20px;
+    }
+    #footnav_mobile.fotnav-3
+    {
+        grid-row:3/3;
+        grid-column: 1/2;
+        height:20px;
+    }
+    #footnav_mobile.fotnav-4
+    {
+        grid-row:1/3;
+        grid-column: 2/2;
+        height:20px;
+    }
+    #footnav_mobile.fotnav-5
+    {
+        grid-row:2/3;
+        grid-column: 2/2;
+        height:20px;
+    }
+    #footnav_mobile
+    {
+        z-index: 2;
+        margin: 0 41px 0 0;
+        font-family: "Mukta-Bold";
+        font-size: 18px;
+        color: rgb(150, 147, 147);
+        text-transform: uppercase;
+        width:110px;
+    }
+    #footnav1_mobile a
+    {
+        margin: 0 41px 0 0;
+        font-family: "Mukta-Bold";
+        font-size: 18px;
+        color: white;
+        text-transform: uppercase;
+        width:110px;
+    }
+    .SocialIcons
+    {
+        display:none;
+    }
+}
+@media screen and (max-width:364px)
+{
+    #FootNav_mobile
+    {
+        display:grid;
+        grid-template-columns: repeat(2,0.5fr);
+        grid-template-rows: repeat(3,7fr);
+        row-gap: 15px;
+        width:364px;
+    }
+}
