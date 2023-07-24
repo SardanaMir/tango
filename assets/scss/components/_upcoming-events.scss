@@ -3,22 +3,23 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                height: 75vh;
+                padding-bottom: 125px;
         }
-        .upcoming-events__h2{
-                background-color: #900020;
+        .upcoming-events__header{
+                background-color: $background-color-burgundy;
+                height: 150px;
+                padding: 40px 0 20px 0;
+        }
+        .upcoming-events__h2{ 
+                @include title;
                 color: white;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
                 text-align: center;
-                height: 10vh;
-                font-weight: bold;
         }
         .upcoming-events__img {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
+                margin-top: 85px;
         }
 }
 
@@ -28,21 +29,23 @@
                 flex-direction: column;
                 justify-content: space-between;
                 height: 80%;
+                padding-bottom: 100px;
         }
-        .upcoming-events__h2{
-                background-color: #900020;
+        .upcoming-events__header{
+                background-color: $background-color-burgundy;
+                height: 130px;
+                padding-top: 25px
+        }
+        .upcoming-events__h2{ 
+                @include title;
                 color: white;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
                 text-align: center;
-                height: 5vh;
-                font-weight: bold;
         }
         .upcoming-events__img {
                 display: grid;
                 grid-template-columns: repeat(3,1fr);
                 grid-column-gap: 10%;
+                margin-top: 85px;
         }
 
         .upcoming-events__img1 {
@@ -57,25 +60,26 @@
                 flex-direction: column;
                 justify-content: space-between;
                 height: 80%;
+                padding-bottom: 100px;
         }
-        .upcoming-events__h2{
-                background-color: #900020;
+        .upcoming-events__header{
+                background-color: $background-color-burgundy;
+                height: 95px;
+                padding-top: 20px
+        }
+        .upcoming-events__h2{ 
+                @include title;
                 color: white;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
                 text-align: center;
-                height: 5vh;
-                font-weight: bold;
+                font-size: 35px;
         }
         .upcoming-events__img {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 gap: 5vw;
-                width: 90vw;
+                margin-top: 50px;
         }
-
         .upcoming-events__img1 {
                 max-width: 80%;
         }
