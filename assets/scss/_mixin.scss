@@ -19,3 +19,24 @@
     size: 40px;
   }
 }
+
+@mixin btn{
+  width: 200px;
+  height: 48px;
+  border: none;
+  background: $background-color-burgundy;
+  color: $color-white;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Mukta-Bold";
+  font-weight: 800;
+  line-height: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@mixin divider{
+  border-bottom: 4px solid $background-color-burgundy;
+  width: 100px;
+  margin-bottom: 25px;
+}
