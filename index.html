@@ -11,7 +11,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/scss/index.css" />
+    <!-- <link rel="stylesheet" href="./assets/scss/index.css" /> -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
   <body>
     <div class="main-container min-vh-100">
@@ -167,14 +168,85 @@
         </section>
         <!--Блок 5. past-events END-->
         <!--Блок 6. video START-->
-        <section class="video"></section>
+        <section class="video">
+          <section class="video">
+            <div id="carouselExampleDark" class="carousel slide carousel-dark">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JCQBSpRx5Hw" class="d-block w-75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UKNFDfuJrYo" class="d-block w-75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iS7mFZD9mgQ" class="d-block w-75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/u5RLZe7j33M" class="d-block w-75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OyQ8lcoTTE4" class="d-block w-75" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
+        </section>
         <!--Блок 6. video END-->
         <!--Блок 7. form START-->
         <section class="form"></section>
         <!--Блок 7. form END-->
       </main>
       <!--Блок 8. footer START-->
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <footer class="footer" id="footer">
+          <div class="container">
+            <div id="footNav">
+              <div id="footnav1" class="fotnav-1">
+                <a href="#about-me">About me</a>
+              </div>
+              <div id="footnav" class="fotnav-2">Events</div>
+              <div id="footnav" class="fotnav-3">Stories</div>
+              <div id="footnav" class="fotnav-4">Videos</div>
+              <div id="footnav" class="fotnav-5">Contact</div>
+            </div>
+            <div id="FootNav_mobile">
+              <div id="footnav1_mobile" class="fotnav-1">
+                <a href="#about-me">About me</a>
+              </div>
+              <div id="footnav_mobile" class="fotnav-2">Events</div>
+              <div id="footnav_mobile" class="fotnav-3">Stories</div>
+              <div id="footnav_mobile" class="fotnav-4">Videos</div>
+              <div id="footnav_mobile" class="fotnav-5">Contact</div>
+            </div>
+            <span class="SocialIcons">
+              <img
+                id="facebook"
+                src="assets/img/footer/Facebook.svg"
+                alt="Facebook Icon"
+              />
+              <img
+                id="youTube"
+                src="assets/img/footer/YouTube.svg"
+                alt="You Tube icon"
+              />
+            </span>
+          </div>
+      </footer>
       <!--Блок 8. footer END-->
     </div>
     <script
