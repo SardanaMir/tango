@@ -23,7 +23,19 @@
     font-size: 18px;
     color: rgb(150, 147, 147);
     text-transform: uppercase;
-    width:110px;
+    width: 110px;
+    text-decoration: none !important;
+}
+
+#footnav a 
+{
+    margin: 0 41px 0 0;
+    font-family: "Mukta-Bold";
+    font-size: 18px;
+    color: rgb(150, 147, 147);
+    text-transform: uppercase;
+    width: 110px;
+    text-decoration: none !important;
 }
 #footnav:hover
 {
