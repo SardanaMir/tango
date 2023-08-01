@@ -42,4 +42,7 @@
 .promo_contactme:hover {
     text-decoration: underline white;
     opacity: 0.9;
+    box-shadow: 3px 3px 20px $background-color-burgundy;
+    border: none;
+    transition: 0.5s all;
 }
