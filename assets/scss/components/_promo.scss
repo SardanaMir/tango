@@ -46,3 +46,15 @@
     border: none;
     transition: 0.5s all;
 }
+
+@media screen and (max-width: 375px){
+    .promo{
+        min-height: 500px;
+        &_h1 {
+            font-size: 50px;
+        }
+        &_h2 {
+            font-size: 25px;
+        }
+    }
+}
