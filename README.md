@@ -9,7 +9,10 @@ Also find her social media links and videos. And contact with her.
 # Technologies:
 
 ![html5-original (1)](https://github.com/nsshakula/Agro_bot/assets/134269662/dfa377a2-630b-4e7e-8640-06aceca297f2)
+![sass](https://github.com/SardanaMir/tango/blob/main/assets/img/logoforreadme/sass.png)
+![js (1)](https://github.com/SardanaMir/tango/blob/main/assets/img/logoforreadme/js.png)
 ![jquery-horizontal (1)](https://github.com/nsshakula/Agro_bot/assets/134269662/d478f63f-4621-47bf-8d48-a390c9ddb1b6)
+![php](https://github.com/SardanaMir/tango/blob/main/assets/img/logoforreadme/php.png)
 
 # Our team:
 
