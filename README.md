@@ -9,7 +9,7 @@ Also find her social media links and videos. And contact with her.
 # Technologies:
 
 ![html5-original (1)](https://github.com/nsshakula/Agro_bot/assets/134269662/dfa377a2-630b-4e7e-8640-06aceca297f2)
-
+![jquery-horizontal (1)](https://github.com/nsshakula/Agro_bot/assets/134269662/d478f63f-4621-47bf-8d48-a390c9ddb1b6)
 
 # Our team:
 
